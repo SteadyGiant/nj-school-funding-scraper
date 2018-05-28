@@ -9,9 +9,13 @@ I can't download the whole thing in one go, and I don't feel like clicking throu
 
 ## Results
 
-The full dataset is in the `data/` folder. It contains funding scenarios for all school districts in NJ.
+The full dataset is in the `data/` folder. It contains funding scenarios for all(?) school districts in NJ.
 
-## Issues
+## Instructions
+
+If you want to copy me, just run all lines of `R/compile_data.R`. See "Requirements" below for dependencies.
+
+## Challenges
 
 This website is dynamically generated ("Javascript is modifying the state of the DOM"), so `rvest`'s functions cannot extract the data. [`rdom`](https://github.com/cpsievert/rdom) takes care of this. 
 
