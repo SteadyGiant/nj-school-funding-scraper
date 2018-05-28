@@ -7,6 +7,10 @@ NJ Spotlight ran a story, ["What Would ‘Full Funding’ of School Aid Look Lik
 
 I can't download the whole thing in one go, and I don't feel like clicking through 24 pages and copy+pasting each one into a spreadsheet, so scrape I shall!
 
+## Results
+
+The full dataset is in the `data/` folder. It contains funding scenarios for all school districts in NJ.
+
 ## Issues
 
 This website is dynamically generated ("Javascript is modifying the state of the DOM"), so `rvest`'s functions cannot extract the data. [`rdom`](https://github.com/cpsievert/rdom) takes care of this. 
