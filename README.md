@@ -23,6 +23,6 @@ The catch: It seems like `rvest` and `xml2` have [no functions capable](https://
 
 ## Requirements
 
-For `rdom` to work, you must have `phantomjs.exe` in the working directory. You can [download it here](http://phantomjs.org/). You only need to move the `phantomjs.exe` file into your working directory. I used v2.1.
+For `rdom` to work, you must have `phantomjs.exe` in the working directory. You can [download it here](http://phantomjs.org/). You only need to move the `phantomjs.exe` file into your working directory. I used v2.1.1, the last stable version that will ever(?) be released (RIP).
 
 Alternatively, you can probably download PhantomJS using the [`wdman`](https://github.com/johndharrison/wdman) package.
