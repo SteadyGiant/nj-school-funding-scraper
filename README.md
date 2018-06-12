@@ -19,7 +19,7 @@ If you want to copy me, just run all lines of `R/compile_data.R`. See "Requireme
 
 This website is dynamically generated ("Javascript is modifying the state of the DOM"), so `rvest`'s functions cannot extract the data. [`rdom`](https://github.com/cpsievert/rdom) takes care of this. 
 
-The catch: It seems like `rvest` and `xml2` have no functions capable of dealing with the output of `rdom`'s functions. `XML::readHTMLTable()`, however, does the job.
+The catch: It seems like `rvest` and `xml2` have [no functions capable](https://github.com/cpsievert/rdom/issues/16) of dealing with the output of `rdom`'s functions. `XML::readHTMLTable()`, however, does the job.
 
 ## Requirements
 
