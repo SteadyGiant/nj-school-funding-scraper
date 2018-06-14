@@ -7,9 +7,7 @@ NJ Spotlight ran a story, ["What Would ‘Full Funding’ of School Aid Look Lik
 
 ## Data
 
-This dataset includes capped SFRA aid, including adjustment aid, for the 2017-18 and 2018-19 school years (also available [here](http://www.nj.gov/education/stateaid/1718/scenarios.shtml) and [here](http://www.nj.gov/education/stateaid/1819/)). However, NJ Spotlight also obtained *uncapped* SFRA aid *without* adjustment aid. It doesn't seem like this variable is made publicly available by the State.
-
-Ideally, I'd like to also have adjustment aid as a separate variable.
+This dataset includes capped SFRA aid, including adjustment aid, for [2018-19 school year](http://www.nj.gov/education/stateaid/1819/) as well as actual state aid [recieved in 2017-18](http://www.nj.gov/education/stateaid/1718/scenarios.shtml). However, NJ Spotlight also obtained *uncapped* SFRA aid *without* adjustment aid. It doesn't seem like this variable is made publicly available by the State. Ideally, I'd like to also have adjustment aid as a separate variable.
 
 ## Results
 
