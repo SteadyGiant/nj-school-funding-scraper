@@ -1,11 +1,15 @@
 # nj-school-funding-scraper
-### Scrapes April 2018 (full) school funding scenarios from NJ Spotlight.
+### Scrapes April 2018 full school funding scenarios from NJ Spotlight.
 
 ## Intro
 
-NJ Spotlight ran a story, ["What Would ‘Full Funding’ of School Aid Look Like? Add $2.3B to Districts"](http://www.njspotlight.com/stories/18/04/24/what-would-full-funding-of-school-aid-look-like-add-2-3b-to-budget/), and made [the data](http://www.njspotlight.com/tables/School%20funding%20scenarios%2018/#/p/1) public. The State of NJ makes the April 2018 school funding scenarios data [public already](http://www.nj.gov/education/stateaid/1718/scenarios.shtml), but NJ Spotlight's dataset contains more variables.
+NJ Spotlight ran a story, ["What Would ‘Full Funding’ of School Aid Look Like? Add $2.3B to Districts"](http://www.njspotlight.com/stories/18/04/24/what-would-full-funding-of-school-aid-look-like-add-2-3b-to-budget/), and made [the data](http://www.njspotlight.com/tables/School%20funding%20scenarios%2018/#/p/1) public. I can't download the whole thing in one go, and I don't feel like clicking through 24 pages and copy+pasting each one into a spreadsheet, so scrape I shall!
 
-I can't download the whole thing in one go, and I don't feel like clicking through 24 pages and copy+pasting each one into a spreadsheet, so scrape I shall!
+## Data
+
+This dataset includes capped SFRA aid, including adjustment aid, for the 2017-18 and 2018-19 school years (also available [here](http://www.nj.gov/education/stateaid/1718/scenarios.shtml) and [here](http://www.nj.gov/education/stateaid/1819/)). However, NJ Spotlight also obtained *uncapped* SFRA aid *without* adjustment aid. It doesn't seem like this variable is made publicly available by the State.
+
+Ideally, I'd like to also have adjustment aid as a separate variable.
 
 ## Results
 
